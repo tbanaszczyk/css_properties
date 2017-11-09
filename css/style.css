@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   font-weight: normal;
   font-family: "Open Sans", sans-serif;
-  line-height: 20px;
+  line-height: 1.8;
   padding-bottom: 15px;
   width: 105%
 }
@@ -19,19 +19,20 @@ nav {
 h1 {
   font-size: 32px;
   font-weight: bold;
-  line-height: 43px;
+  line-height: 1.8;
   padding-bottom: 10px;
 }
 
 h3 {
   font-size: 24px;
   font-weight: bolder;
-  line-height: 31px;
+  line-height: 1.8;
   padding-bottom: 20px;
 }
 
 p {
   padding-bottom: 10px;
+  line-height: 1.4;
 }
 
 .logo {
@@ -74,9 +75,13 @@ article {
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 45%;
 }
 
 a:-webkit-any-link {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+figure {
+  margin-bottom: 20px;
 }
